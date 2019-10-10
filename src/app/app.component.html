@@ -18,5 +18,6 @@
 </button>
 
 <div class="ui grid posts">
-  <app-article> </app-article>
+  <app-article *ngFor="let listItem of sortedArticles()" [article]="listItem">
+  </app-article>
 </div>
