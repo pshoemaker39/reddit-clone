@@ -1,0 +1,19 @@
+Using the reddit clone source code taken from ng-book (up to page 70) add a property to
+the article model that is of type string called “role”.
+
+In the existing articles array be sure to instantiate the newly added field for each article by setting the
+“role” field to either “user” or “administrator”.
+
+At least one article should be of administrator role. For each article in the appropriate template include a
+button element with the button text “flag”.
+
+The button element should only render if the user role is set to administrator.
+
+This can be done using the ngIf directive.
+
+
+Extra Credit: add (click) event to the button that calls a
+component function called flagArticle. The flagArticle function should call a service
+function that accepts the article and downvotes the article so that its the lowest voted
+article. You can do this by passing the article to the component function or by passing
+the array index to the function and then accessing the article using the array index.
