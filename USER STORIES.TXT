@@ -1,0 +1,10 @@
+As a user I want to be able to upvote posts I agree with so that I can show my support
+As a user I want to be able to downvote posts I disagree with so that I can show my disapproval with any dissenting opinion
+As a user I want to be able to post articles so that I can win fake internet points
+As a user I want to be able to view all the article which have been posted to the site
+As an admin I want to be able to flag a post so I can reduce its visibility
+As an admin I want to be able to comment on posts to inform users of potential issues with the post
+As an admin I want to be able to reduce the vote score of a post so that it is the least important post on the site
+As an admin I want flagged posts to be automatically removed if a comment is not addressed with a set time period so that I can maintain the integrity of the site
+As an admin I want to be able to remove flagged posts so they do not appear on the site
+As an admin I want user who have not corrected their posts to be suspended from the site from one week if they have not addressed their flagged posts
