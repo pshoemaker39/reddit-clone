@@ -22,5 +22,9 @@ export class ArticleComponent implements OnInit {
     return false;
   }
 
+  flagArticle(): boolean {
+    return false;
+  }
+
   ngOnInit() {}
 }
