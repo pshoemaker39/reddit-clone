@@ -11,9 +11,9 @@ export class AppComponent {
 
   constructor() {
     this.articles = [
-      new Article("Angular", "http://angular.io", 3),
-      new Article("Fullstack", "http://fullstack.io", 2),
-      new Article("Angular Homepage", "http://angular.io", 1)
+      new Article("Angular", "http://angular.io", 3, "admin"),
+      new Article("Fullstack", "http://fullstack.io", 2, "user"),
+      new Article("Angular Homepage", "http://angular.io", 1, "user")
     ];
   }
   addArticle(title: HTMLInputElement, link: HTMLInputElement): boolean {

@@ -4,8 +4,9 @@ the article model that is of type string called “role”.
 In the existing articles array be sure to instantiate the newly added field for each article by setting the
 “role” field to either “user” or “administrator”.
 
-At least one article should be of administrator role. For each article in the appropriate template include a
-button element with the button text “flag”.
+At least one article should be of administrator role.
+
+For each article in the appropriate template include a button element with the button text “flag”.
 
 The button element should only render if the user role is set to administrator.
 
