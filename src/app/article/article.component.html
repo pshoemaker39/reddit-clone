@@ -26,8 +26,8 @@
         downvote
       </a>
     </li>
-    <li class="item">
-      <button href (click)="voteDown()">
+    <li class="item" *ngIf="article.role == 'admin'">
+      <button href (click)="flag()">
         <i class="flag icon"></i>
         FLAG
       </button>
